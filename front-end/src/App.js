@@ -7,7 +7,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://ec2-13-232-154-171.ap-south-1.compute.amazonaws.com/";
+axios.defaults.baseURL = "https://density.chiragghosh.dev/";
 
 function App() {
   return (
